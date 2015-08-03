@@ -622,12 +622,12 @@ if ( ! function_exists( 'woocommerce_catalog_ordering' ) ) {
 		$orderby                 = isset( $_GET['orderby'] ) ? wc_clean( $_GET['orderby'] ) : apply_filters( 'woocommerce_default_catalog_orderby', get_option( 'woocommerce_default_catalog_orderby' ) );
 		$show_default_orderby    = 'menu_order' === apply_filters( 'woocommerce_default_catalog_orderby', get_option( 'woocommerce_default_catalog_orderby' ) );
 		$catalog_orderby_options = apply_filters( 'woocommerce_catalog_orderby', array(
-			'menu_order' => __( 'Default sorting', 'woocommerce' ),
-			'popularity' => __( 'Sort by popularity', 'woocommerce' ),
-			'rating'     => __( 'Sort by average rating', 'woocommerce' ),
-			'date'       => __( 'Sort by newness', 'woocommerce' ),
-			'price'      => __( 'Sort by price: low to high', 'woocommerce' ),
-			'price-desc' => __( 'Sort by price: high to low', 'woocommerce' )
+			'menu_order' => __( 'Sin orden específico', 'woocommerce' ),
+			'popularity' => __( 'Ordenar por popularidad', 'woocommerce' ),
+			'rating'     => __( 'Ordenar por recomendaciones', 'woocommerce' ),
+			'date'       => __( 'Ordenar por los más recientes', 'woocommerce' ),
+			'price'      => __( 'Ordenar por precio: bajo a alto', 'woocommerce' ),
+			'price-desc' => __( 'Ordenar por precio: alto a bajo', 'woocommerce' )
 		) );
 
 		if ( ! $show_default_orderby ) {

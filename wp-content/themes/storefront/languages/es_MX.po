@@ -1,74 +1,94 @@
-# Copyright (C) 2015 WooThemes
-# This file is distributed under the GNU General Public License v2 or later.
-# Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: Storefront\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/storefront/issues\n"
 "POT-Creation-Date: 2015-04-23 10:33:15+00:00\n"
-"PO-Revision-Date: 2015-04-23 10:33+0000\n"
-"Last-Translator: James Koster <jay@woothemes.com>\n"
-"Language-Team: Spanish (Mexico) (http://www.transifex.com/projects/p/storefront-1/language/es_MX/)\n"
+"PO-Revision-Date: Wed Jun 03 2015 11:01:19 GMT-0500 (CDT)\n"
+"Last-Translator: admin <fernando@get-itnow.com>\n"
+"Language-Team: Spanish (Mexico) (http://www.transifex."
+"com/projects/p/storefront-1/language/es_MX/)\n"
+"Language: Spanish (Mexico)\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es_MX\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: grunt-wp-i18n 0.4.9\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: es_MX"
 
 #: 404.php:15
 msgid "Oops! That page can&rsquo;t be found."
-msgstr ""
+msgstr "¡Oops! Parece que el sitio que buscas no puede ser encontrado."
 
 #: 404.php:19
 msgid ""
-"It looks like nothing was found at this location. Maybe try one of the links"
-" below or a search?"
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
 msgstr ""
+"Parece que nada fue encontrado en esta dirección. Creemos que te puede "
+"servir los siguientes links o regresar a la página de inicio."
 
 #: 404.php:27
 msgid "Most Used Categories"
-msgstr ""
+msgstr "Categorías mas visitadas"
 
 #: 404.php:43
 msgid "Try looking in the monthly archives."
-msgstr ""
+msgstr "Intenta buscar en los archivos mensuales"
 
 #: comments.php:33 comments.php:51
 msgid "Comment navigation"
-msgstr ""
+msgstr "Navegación de comentarios"
 
 #: comments.php:34 comments.php:52
 msgid "&larr; Older Comments"
 msgstr ""
+"&larr; \n"
+"Comentarios antiguos"
 
 #: comments.php:35 comments.php:53
 msgid "Newer Comments &rarr;"
 msgstr ""
+"Comentarios nuevos \n"
+"&rarr;"
 
 #: comments.php:60
 msgid "Comments are closed."
-msgstr ""
+msgstr "La ventana de comentarios está cerrada"
 
 #: content-none.php:13
 msgid "Nothing Found"
-msgstr ""
+msgstr "Nada fue encontrado"
 
 #: content-none.php:19
+#, c-format
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
+"¿Estás listo para publicar tu primer post? \n"
+" <a href=\"%1$s\">Comienza aquí</a>."
 
 #: content-none.php:23
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
 msgstr ""
+"¡Lo sentimos! :( nada coincide con tu búsqueda. Por favor intente de nuevo "
+"con diferentes palabras."
 
 #: content-none.php:28
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
+"Parece que no podemos encontrar lo que estás buscando. A lo mejor la barra "
+"de búsqueda te pueda ayudar."
 
 #: inc/admin/welcome-screen/sections/add-ons.php:7
 msgid "Enhance your site"
@@ -76,8 +96,8 @@ msgstr ""
 
 #: inc/admin/welcome-screen/sections/add-ons.php:10
 msgid ""
-"Below you will find a selection of free and commercial Storefront extensions"
-" that could help improve your online store."
+"Below you will find a selection of free and commercial Storefront extensions "
+"that could help improve your online store."
 msgstr ""
 
 #: inc/admin/welcome-screen/sections/add-ons.php:14
@@ -90,6 +110,7 @@ msgid "Free (Third Party)"
 msgstr ""
 
 #: inc/admin/welcome-screen/sections/add-ons.php:16
+#, c-format
 msgid ""
 "Jetpack is probably a plugin you're already familiar with. Storefront fully "
 "supports Jetpacks site logo feature making it easy to upload and display "
@@ -130,6 +151,7 @@ msgid ""
 msgstr ""
 
 #: inc/admin/welcome-screen/sections/add-ons.php:34
+#, c-format
 msgid "Buy %sStorefront Designer%s now"
 msgstr ""
 
@@ -139,18 +161,18 @@ msgstr ""
 
 #: inc/admin/welcome-screen/sections/add-ons.php:42
 msgid ""
-"The Storefront Product Hero extension adds a parallax hero component to your"
-" homepage highlighting a specific product at your store. Use the shortcode "
-"to add attractive hero components to posts, pages or widgets."
+"The Storefront Product Hero extension adds a parallax hero component to your "
+"homepage highlighting a specific product at your store. Use the shortcode to "
+"add attractive hero components to posts, pages or widgets."
 msgstr ""
 
 #: inc/admin/welcome-screen/sections/add-ons.php:47
+#, c-format
 msgid "Buy %sStorefront Product Hero%s now"
 msgstr ""
 
 #: inc/admin/welcome-screen/sections/add-ons.php:53
-msgid ""
-"Have your visitors market your store for you with Storefront Product Sharing"
+msgid "Have your visitors market your store for you with Storefront Product Sharing"
 msgstr ""
 
 #: inc/admin/welcome-screen/sections/add-ons.php:53
@@ -160,10 +182,10 @@ msgid "Free"
 msgstr ""
 
 #: inc/admin/welcome-screen/sections/add-ons.php:55
+#, c-format
 msgid ""
-"Storefront Product Sharing adds attractive social sharing icons for "
-"Facebook, Twitter, Pinterest and Email to your product pages. %sMore info "
-"&rarr;%s"
+"Storefront Product Sharing adds attractive social sharing icons for Facebook,"
+" Twitter, Pinterest and Email to your product pages. %sMore info &rarr;%s"
 msgstr ""
 
 #: inc/admin/welcome-screen/sections/add-ons.php:60
@@ -175,6 +197,7 @@ msgid "Add a site-wide call out to your footer with Storefront Footer Bar"
 msgstr ""
 
 #: inc/admin/welcome-screen/sections/add-ons.php:68
+#, c-format
 msgid ""
 "Storefront Footer Bar adds a full width widgetised region above the default "
 "Storefront footer widget area. %sMore info &rarr;%s"
@@ -189,6 +212,7 @@ msgid "Storefront Product Pagination"
 msgstr ""
 
 #: inc/admin/welcome-screen/sections/add-ons.php:81
+#, c-format
 msgid ""
 "Storefront Product Pagination adds unobtrusive links to next/previous "
 "products on your WooCommerce single product pages. %sMore info &rarr;%s"
@@ -212,6 +236,7 @@ msgid ""
 msgstr ""
 
 #: inc/admin/welcome-screen/sections/add-ons.php:99
+#, c-format
 msgid "Buy %sStorefront WooCommerce Customiser%s now"
 msgstr ""
 
@@ -220,6 +245,7 @@ msgid "Add practical information to your pages with Storefront Top Bar"
 msgstr ""
 
 #: inc/admin/welcome-screen/sections/add-ons.php:107
+#, c-format
 msgid ""
 "Storefront Top Bar adds a widgetised content area at the top of your site "
 "and customise it's appearance in the Customizer. %sMore info &rarr;%s"
@@ -230,9 +256,10 @@ msgid "Install Storefront Top Bar"
 msgstr ""
 
 #: inc/admin/welcome-screen/sections/add-ons.php:120
+#, c-format
 msgid ""
-"There are literally hundreds of awesome extensions available for you to use."
-" Looking for Table Rate Shipping? Subscriptions? Product Add-ons? You can "
+"There are literally hundreds of awesome extensions available for you to use. "
+"Looking for Table Rate Shipping? Subscriptions? Product Add-ons? You can "
 "find these and more in the WooCommerce extension shop. %sGo shopping%s."
 msgstr ""
 
@@ -263,10 +290,12 @@ msgid ""
 msgstr ""
 
 #: inc/admin/welcome-screen/sections/child-themes.php:23
+#, c-format
 msgid "Install %s now"
 msgstr ""
 
 #: inc/admin/welcome-screen/sections/child-themes.php:25
+#, c-format
 msgid "Read more %sabout Boutique%s &rarr;"
 msgstr ""
 
@@ -298,12 +327,11 @@ msgstr ""
 
 #: inc/admin/welcome-screen/sections/getting-started.php:27
 msgid ""
-"Storefront includes three menu locations for primary, secondary and handheld"
-" navigation. The primary navigation is perfect for your key pages like the "
+"Storefront includes three menu locations for primary, secondary and handheld "
+"navigation. The primary navigation is perfect for your key pages like the "
 "shop and product categories. The secondary navigation is better suited to "
 "lower traffic pages such as terms and conditions. The handheld navigation "
-"gives you complete control over what menu items to serve to handheld "
-"devices."
+"gives you complete control over what menu items to serve to handheld devices."
 msgstr ""
 
 #: inc/admin/welcome-screen/sections/getting-started.php:28
@@ -329,6 +357,7 @@ msgid "Add your logo"
 msgstr ""
 
 #: inc/admin/welcome-screen/sections/getting-started.php:36
+#, c-format
 msgid ""
 "Install and activate either %sJetpack%s or the to enable a custom logo "
 "option in the Customizer."
@@ -345,13 +374,15 @@ msgid ""
 msgstr ""
 
 #: inc/admin/welcome-screen/sections/getting-started.php:48
+#, c-format
 msgid ""
-"To set this up you will need to create a new page and assign the "
-"\"Homepage\" template to it. You can then set that as a static homepage in "
-"the %sReading%s settings."
+"To set this up you will need to create a new page and assign the \"Homepage\" "
+"template to it. You can then set that as a static homepage in the "
+"%sReading%s settings."
 msgstr ""
 
 #: inc/admin/welcome-screen/sections/getting-started.php:49
+#, c-format
 msgid ""
 "Once set up you can toggle and re-order the homepage components using the "
 "%sHomepage Control%s plugin."
@@ -367,8 +398,8 @@ msgstr ""
 
 #: inc/admin/welcome-screen/sections/getting-started.php:56
 msgid ""
-"You can read detailed information on Storefronts features and how to develop"
-" on top of it in the documentation."
+"You can read detailed information on Storefronts features and how to develop "
+"on top of it in the documentation."
 msgstr ""
 
 #: inc/admin/welcome-screen/sections/getting-started.php:57
@@ -384,8 +415,8 @@ msgstr ""
 #: inc/admin/welcome-screen/sections/intro.php:15
 msgid ""
 "Whether you're a store owner, WordPress developer, or both - we hope you "
-"enjoy Storefront's deep integration with WooCommerce core (including several"
-" popular WooCommerce extensions), plus the flexible design and extensible "
+"enjoy Storefront's deep integration with WooCommerce core (including several "
+"popular WooCommerce extensions), plus the flexible design and extensible "
 "codebase that this theme provides."
 msgstr ""
 
@@ -431,8 +462,8 @@ msgstr ""
 #: inc/admin/welcome-screen/sections/who.php:19
 msgid ""
 "WooCommerce is the most popular WordPress eCommerce plugin. Packed full of "
-"intuitive features and surrounded by a thriving community - it's the perfect"
-" solution for building an online store with WordPress."
+"intuitive features and surrounded by a thriving community - it's the perfect "
+"solution for building an online store with WordPress."
 msgstr ""
 
 #: inc/admin/welcome-screen/sections/who.php:20
@@ -471,6 +502,7 @@ msgid "Can't find a feature?"
 msgstr ""
 
 #: inc/admin/welcome-screen/sections/who.php:35
+#, c-format
 msgid ""
 "Please suggest and vote on ideas / feature requests at the %sStorefront "
 "Ideasboard%s. The most popular ideas will see prioritised development."
@@ -481,11 +513,12 @@ msgid "Are you enjoying Storefront?"
 msgstr ""
 
 #: inc/admin/welcome-screen/sections/who.php:38
-msgid ""
-"Why not leave a review on %sWordPress.org%s? We'd really appreciate it! :-)"
+#, c-format
+msgid "Why not leave a review on %sWordPress.org%s? We'd really appreciate it! :-)"
 msgstr ""
 
 #: inc/admin/welcome-screen/welcome-screen.php:47
+#, c-format
 msgid ""
 "Thanks for choosing Storefront! You can read hints and tips on how get the "
 "most out of your new theme on the %swelcome screen%s."
@@ -496,6 +529,7 @@ msgid "Get started with Storefront"
 msgstr ""
 
 #: inc/customizer/controls/more.php:16
+#, c-format
 msgid ""
 "There's a range of Storefront extensions available to put additional power "
 "in your hands. Check out the %sStorefront%s page in your dashboard for more "
@@ -507,8 +541,8 @@ msgid "Enjoying Storefront?"
 msgstr ""
 
 #: inc/customizer/controls/more.php:23
-msgid ""
-"Why not leave us a review on %sWordPress.org%s?  We'd really appreciate it!"
+#, c-format
+msgid "Why not leave us a review on %sWordPress.org%s?  We'd really appreciate it!"
 msgstr ""
 
 #: inc/customizer/controls.php:25
@@ -520,6 +554,7 @@ msgid "Header"
 msgstr ""
 
 #: inc/customizer/controls.php:49
+#, c-format
 msgid "Looking to add a logo? Install the %sJetpack%s plugin!"
 msgstr ""
 
@@ -606,14 +641,17 @@ msgid "Sidebar"
 msgstr ""
 
 #: inc/functions/setup.php:127
+#, c-format
 msgid "Footer %d"
 msgstr ""
 
 #: inc/functions/setup.php:129
+#, c-format
 msgid "Widgetized Footer Region %d."
 msgstr ""
 
 #: inc/structure/comments.php:40
+#, c-format
 msgid "<cite class=\"fn\">%s</cite>"
 msgstr ""
 
@@ -626,6 +664,7 @@ msgid "Edit"
 msgstr ""
 
 #: inc/structure/footer.php:60
+#, c-format
 msgid "%1$s designed by %2$s."
 msgstr ""
 
@@ -654,6 +693,7 @@ msgid "Pages:"
 msgstr ""
 
 #: inc/structure/post.php:47
+#, c-format
 msgid "Continue reading %s"
 msgstr ""
 
@@ -715,12 +755,14 @@ msgid "View your shopping cart"
 msgstr ""
 
 #: inc/woocommerce/template-tags.php:19
+#, c-format
 msgid "%d item"
 msgid_plural "%d items"
 msgstr[0] ""
 msgstr[1] ""
 
 #: search.php:16
+#, c-format
 msgid "Search Results for: %s"
 msgstr ""
 
@@ -759,6 +801,7 @@ msgid "Homepage"
 msgstr ""
 
 #: comments.php:26
+#, c-format
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
@@ -766,11 +809,13 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: inc/structure/post.php:156
+#, c-format
 msgctxt "post date"
 msgid "Posted on %s"
 msgstr ""
 
 #: inc/structure/post.php:161
+#, c-format
 msgctxt "post author"
 msgid "by %s"
 msgstr ""
